@@ -1,6 +1,55 @@
+// Variables
+@import "helpers/functions";
+@import "helpers/mixins";
+@import "helpers/variables";
+
+// Bootstrap
+@import "../bootstrap/scss/bootstrap";
+
+// Plugins
+// @import "../plugins/font-awesome/css/all.min.css";
+// @import "../plugins/lightbox/css/lightbox.min.css";
+// @import "../plugins/flickity/flickity.min.css";
+
+// Components
+@import "components/about-description";
+@import "components/alerts";
+@import "components/buttons";
+@import "components/carousel";
+@import "components/carousel-alt";
+@import "components/contact-form";
+@import "components/contact-info";
+@import "components/discover-description";
+@import "components/discover-image";
+@import "components/dishes-carousel";
+@import "components/dropdowns";
+@import "components/event";
+@import "components/fonts";
+@import "components/forms";
+@import "components/gallery";
+@import "components/lightbox";
+@import "components/map";
+@import "components/menu-item";
+@import "components/menu-navigation";
+@import "components/navbar";
+@import "components/newsletter";
+@import "components/phone-number";
+@import "components/quote";
+@import "components/scaffolding";
+@import "components/section";
+@import "components/tables";
+@import "components/testimonials-carousel";
+
+// Sections
+@import "sections/sections";
+
+// Layouts
+@import "layouts/footer";
+
+
 /**
  * Touche styles
- * 
+ *
  * [TABLE OF CONTENTS]
  *
  * Components: About description
@@ -40,51 +89,3 @@
  * Layouts: Footer
  *
  */
-
-// Variables
-
-@import "helpers/functions";
-@import "helpers/mixins";
-@import "helpers/variables";
-
-// Bootstrap
-
-@import "../bootstrap/scss/bootstrap";
-
-// Components
-
-@import "components/about-description";
-@import "components/alerts";
-@import "components/buttons";
-@import "components/carousel";
-@import "components/carousel-alt";
-@import "components/contact-form";
-@import "components/contact-info";
-@import "components/discover-description";
-@import "components/discover-image";
-@import "components/dishes-carousel";
-@import "components/dropdowns";
-@import "components/event";
-@import "components/fonts";
-@import "components/forms";
-@import "components/gallery";
-@import "components/lightbox";
-@import "components/map";
-@import "components/menu-item";
-@import "components/menu-navigation";
-@import "components/navbar";
-@import "components/newsletter";
-@import "components/phone-number";
-@import "components/quote";
-@import "components/scaffolding";
-@import "components/section";
-@import "components/tables";
-@import "components/testimonials-carousel";
-
-// Sections
-
-@import "sections/sections";
-
-// Layouts
-
-@import "layouts/footer";

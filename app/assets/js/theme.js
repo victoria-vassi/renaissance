@@ -64,7 +64,7 @@ var Navbar = (function() {
 		'hidden.bs.collapse': function() {
 			var scrollTop = $window.scrollTop();
 
-			if (scrollTop == 0) { 
+			if (scrollTop == 0) {
 				makeNavbarLight();
 			}
 		}
@@ -241,13 +241,13 @@ var Newsletter = (function() {
 
 				if (data.result != "success") {
 					var msg = data.msg;
-						
+
 					$(document).trigger('touche.alert.show', ['danger', msg]);
 				} else {
 
 					// Show a confirmation
 					$(document).trigger('touche.alert.show', ['success', data.msg]);
-					
+
 					// Reset a form
 					$form[0].reset();
 				}
@@ -375,11 +375,11 @@ var GoogleMap = (function() {
 /*** Current Date ***/
 
 var CurrentDate = (function() {
-	
+
 	// Variables
 	// =========
 
-	var $dateContainer = $('#js-current-year');	
+	var $dateContainer = $('#js-current-year');
 
 	// Methods
 	// =======

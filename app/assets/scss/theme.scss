@@ -1,6 +1,6 @@
 /**
  * Touche styles
- * 
+ *
  * [TABLE OF CONTENTS]
  *
  * Components: About description
@@ -42,17 +42,19 @@
  */
 
 // Variables
-
 @import "helpers/functions";
 @import "helpers/mixins";
 @import "helpers/variables";
 
 // Bootstrap
-
 @import "../bootstrap/scss/bootstrap";
 
-// Components
+// Plugins
+// @import "../plugins/font-awesome/css/all.min.css";
+// @import "../plugins/lightbox/css/lightbox.min.css";
+// @import "../plugins/flickity/flickity.min.css";
 
+// Components
 @import "components/about-description";
 @import "components/alerts";
 @import "components/buttons";
@@ -82,9 +84,7 @@
 @import "components/testimonials-carousel";
 
 // Sections
-
 @import "sections/sections";
 
 // Layouts
-
 @import "layouts/footer";

@@ -3,13 +3,6 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
-  <link rel="manifest" href="assets/ico/manifest.json">
-  <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="assets/ico/favicon.ico">
-  <meta name="msapplication-config" content="assets/ico/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -25,13 +18,6 @@
   <!-- build:css assets/css/theme.min.css -->
   <link rel="stylesheet" href="assets/css/theme.css">
   <!-- endbuild -->
-
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -55,16 +41,7 @@
         <!-- Navbar navigation: Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about-us.html">About Us</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="nav-item__menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Menu
-            </a>
-            <div class="dropdown-menu" aria-labelledby="nav-item__menu">
-              <a class="dropdown-item" href="menu.html">Menu: Standard</a>
-              <a class="dropdown-item" href="menu_no-images.html">Menu: No Images</a>
-            </div>
+            <a class="nav-link" href="about-us.html">À propos de nous</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="reservation.html">Reservation</a>
@@ -73,24 +50,21 @@
 
         <!-- Navbar: Brand -->
         <a class="navbar-brand d-none d-lg-flex" href="index.html">
-          Touché
+          Renaissance
+          <!-- favicon-all/crown.png -->
         </a>
 
         <!-- Navbar navigation: Right -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="news-and-events.html">News & Events</a>
+            <a class="nav-link" href="news-and-events.html">Espace professionnel</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Contact</a>
+            <a class="nav-link" href="gallery.html">Espace joueur</a>
           </li>
         </ul>
 
       </div> <!-- / .navbar-collapse -->
-
     </div> <!-- / .container -->
   </nav> <!-- / .navbar -->
 
@@ -232,7 +206,7 @@
   </section>
 
 
-  <!-- RESERVATION
+<!-- RESERVATION
   ================================================== -->
   <section class="section section_reservation section_gray" id="section_reservation">
     <div class="container">
@@ -241,12 +215,12 @@
 
           <!-- Heading -->
           <h2 class="section__heading text-center">
-          Make online reservation
+          Contactez-nous
           </h2>
 
           <!-- Subheading -->
           <p class="section__subheading text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo praesentium sequi in cum, beatae maiores quae qui.
+            Vous pouvez nous contacter en utilisant le formulaire ci-dessous.
           </p>
 
         </div>
@@ -260,52 +234,30 @@
               <div class="col-md-6">
 
                 <div class="form-group">
-                  <label class="sr-only" for="reservation__form__name">Full name</label>
-                  <input type="text" class="form-control" id="reservation__form__name" name="reservation__form__name" placeholder="Full name">
+                  <label class="sr-only" for="reservation__form__name">Prénom et Nom</label>
+                  <input type="text" class="form-control" id="reservation__form__name" name="reservation__form__name" placeholder="Prénom et Nom">
                   <div class="invalid-feedback"></div>
                 </div>
                 <div class="form-group">
-                  <label class="sr-only" for="reservation__form__phone">Phone number</label>
-                  <input type="tel" class="form-control" id="reservation__form__phone" name="reservation__form__phone" placeholder="Phone number">
+                  <label class="sr-only" for="reservation__form__phone">Numéro de téléphone</label>
+                  <input type="tel" class="form-control" id="reservation__form__phone" name="reservation__form__phone" placeholder="Numéro de téléphone">
                   <div class="invalid-feedback"></div>
                 </div>
                 <div class="form-group">
-                  <label class="sr-only" for="reservation__form__email">E-mail address</label>
-                  <input type="email" class="form-control" id="reservation__form__email" name="reservation__form__email" placeholder="E-mail address">
+                  <label class="sr-only" for="reservation__form__email">Address e-mail</label>
+                  <input type="email" class="form-control" id="reservation__form__email" name="reservation__form__email" placeholder="Address e-mail">
                   <div class="invalid-feedback"></div>
                 </div>
 
               </div>
               <div class="col-md-6">
-
-                <div class="form-group">
-                  <label class="sr-only" for="reservation__form__people">People</label>
-                  <select class="form-control" id="reservation__form__people" name="reservation__form__people">
-                    <option value="1">1 person</option>
-                    <option value="2" selected="">2 persons</option>
-                    <option value="3">3 persons</option>
-                    <option value="4">4 persons</option>
-                    <option value="5">5 persons</option>
-                  </select>
-                  <div class="invalid-feedback"></div>
-                </div>
-                <div class="form-group">
-                  <label class="sr-only" for="reservation__form__date">Date</label>
-                  <input type="date" class="form-control" id="reservation__form__date" name="reservation__form__date" value="2016-12-31">
-                  <div class="invalid-feedback"></div>
-                </div>
-                <div class="form-group">
-                  <label class="sr-only" for="reservation__form__time">Time</label>
-                  <input type="time" class="form-control" id="reservation__form__time" name="reservation__form__time" value="18:00">
-                  <div class="invalid-feedback"></div>
-                </div>
-
+                <textarea class="textarea form-control" cols="40" id="id_comments" name="comments" rows="6"placeholder="Votre message..."></textarea>
               </div>
               <div class="col">
 
                 <div class="text-center">
                   <button type="submit" class="btn btn-primary">
-                    Reserve a table
+                    Envoyer
                   </button>
                 </div>
 
@@ -317,6 +269,7 @@
       </div> <!-- / .row -->
     </div> <!-- / .container -->
   </section>
+
 
   <!-- TESTIMONIALS
   ================================================== -->
@@ -431,301 +384,7 @@
     </div> <!-- / .container -->
   </section>
 
-  <!-- EVENTS
-  ================================================== -->
-  <section class="section section_events section_no-padding_bottom">
 
-    <!-- Intro -->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-
-          <!-- Heading -->
-          <h2 class="section__heading text-center">
-            Évènements à venir
-          </h2>
-
-          <!-- Subheading -->
-          <p class="section__subheading text-center">
-            Découvrez les prochains événements
-          </p>
-
-        </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-
-    <!-- Events -->
-    <div class="section_events__items">
-
-      <!-- Event #1 -->
-      <div class="section_events__item active">
-
-        <!-- Bg image -->
-        <div class="section_events__item__bg" style="background-image: url(assets/img/8.jpg)"></div>
-
-        <!-- Content -->
-        <div class="container">
-
-          <!-- Content: Large -->
-          <div class="section_events__item__content_lg">
-            <div class="row">
-              <div class="col-md-8 col-lg-5">
-
-                <!-- Date -->
-                <h3 class="section__preheading text-primary">
-                  <time datetime="2017-09-30">September 30, 2017</time>
-                </h3>
-
-                <!-- Heading -->
-                <h2 class="section__heading text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptas, aut ea quae!
-                </h2>
-
-                <!-- Description -->
-                <p class="section__subheading">
-                  Alias earum, labore doloremque iusto a modi et, dolorem veritatis iste quis ab. Facere est optio, voluptate molestias aspernatur impedit perferendis odit?
-                </p>
-
-                <!-- Button -->
-                <a href="#section_reservation" class="btn btn-primary text-white">
-                  Reserve a table
-                </a>
-
-              </div>
-            </div> <!-- / .row -->
-          </div> <!-- / .section_events__item__content_lg -->
-
-          <!-- Content: Small -->
-          <div class="section_events__item__content_sm">
-            <div class="row">
-              <div class="col-3 col-md-2 col-lg-1">
-
-                <!-- Date -->
-                <time datetime="2017-09-30">
-                  30 <small>Sep</small>
-                </time>
-
-              </div>
-              <div class="col-9 col-md-7 col-lg-8">
-
-                <!-- Heading -->
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptas, aut ea quae!
-                </h4>
-
-              </div>
-              <div class="col-9 ml-auto col-md-3 text-md-right">
-
-                <!-- Button -->
-                <a href="#section_reservation" class="btn btn-primary">
-                  Reserve a table
-                </a>
-
-              </div>
-            </div> <!-- / .row -->
-          </div> <!-- / .section_events__item__content_sm -->
-
-        </div> <!-- / .container -->
-
-      </div> <!-- / .section_events__item -->
-
-      <!-- Event #2 -->
-      <div class="section_events__item">
-
-        <!-- Bg image -->
-        <div class="section_events__item__bg" style="background-image: url(assets/img/9.jpg)"></div>
-
-        <!-- Content -->
-        <div class="container">
-
-          <!-- Content: Large -->
-          <div class="section_events__item__content_lg">
-            <div class="row">
-              <div class="col-md-8 col-lg-5">
-
-                <!-- Date -->
-                <h3 class="section__preheading text-primary">
-                  <time datetime="2017-09-29">September 29, 2017</time>
-                </h3>
-
-                <!-- Heading -->
-                <h2 class="section__heading text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptas, aut ea quae!
-                </h2>
-
-                <!-- Description -->
-                <p class="section__subheading">
-                  Alias earum, labore doloremque iusto a modi et, dolorem veritatis iste quis ab. Facere est optio, voluptate molestias aspernatur impedit perferendis odit?
-                </p>
-
-                <!-- Button -->
-                <a href="#section_reservation" class="btn btn-primary text-white">
-                  Reserve a table
-                </a>
-
-              </div>
-            </div> <!-- / .row -->
-          </div> <!-- / .section_events__item__content_lg -->
-
-          <!-- Content: Small -->
-          <div class="section_events__item__content_sm">
-            <div class="row">
-              <div class="col-3 col-md-2 col-lg-1">
-
-                <!-- Date -->
-                <time datetime="2017-09-29">
-                  29 <small>Sep</small>
-                </time>
-
-              </div>
-              <div class="col-9 col-md-7 col-lg-8">
-
-                <!-- Heading -->
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptas, aut ea quae!
-                </h4>
-
-              </div>
-              <div class="col-9 ml-auto col-md-3 text-md-right">
-
-                <!-- Button -->
-                <a href="#section_reservation" class="btn btn-primary">
-                  Reserve a table
-                </a>
-
-              </div>
-            </div> <!-- / .row -->
-          </div> <!-- / .section_events__item__content_sm -->
-
-        </div> <!-- / .container -->
-
-      </div> <!-- / .section_events__item -->
-
-      <!-- Event #3 -->
-      <div class="section_events__item">
-
-        <!-- Bg image -->
-        <div class="section_events__item__bg" style="background-image: url(assets/img/10.jpg)"></div>
-
-        <!-- Content -->
-        <div class="container">
-
-          <!-- Content: Large -->
-          <div class="section_events__item__content_lg">
-            <div class="row">
-              <div class="col-md-8 col-lg-5">
-
-                <!-- Date -->
-                <h3 class="section__preheading text-primary">
-                  <time datetime="2017-09-28">September 28, 2017</time>
-                </h3>
-
-                <!-- Heading -->
-                <h2 class="section__heading text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptas, aut ea quae!
-                </h2>
-
-                <!-- Description -->
-                <p class="section__subheading">
-                  Alias earum, labore doloremque iusto a modi et, dolorem veritatis iste quis ab. Facere est optio, voluptate molestias aspernatur impedit perferendis odit?
-                </p>
-
-                <!-- Button -->
-                <a href="#section_reservation" class="btn btn-primary text-white">
-                  Reserve a table
-                </a>
-
-              </div>
-            </div> <!-- / .row -->
-          </div> <!-- / .section_events__item__content_lg -->
-
-          <!-- Content: Small -->
-          <div class="section_events__item__content_sm">
-            <div class="row">
-              <div class="col-3 col-md-2 col-lg-1">
-
-                <!-- Date -->
-                <time datetime="2017-09-28">
-                  28 <small>Sep</small>
-                </time>
-
-              </div>
-              <div class="col-9 col-md-7 col-lg-8">
-
-                <!-- Heading -->
-                <h4>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptas, aut ea quae!
-                </h4>
-
-              </div>
-              <div class="col-9 ml-auto col-md-3 text-md-right">
-
-                <!-- Button -->
-                <a href="#section_reservation" class="btn btn-primary">
-                  Reserve a table
-                </a>
-
-              </div>
-            </div> <!-- / .row -->
-          </div> <!-- / .section_events__item__content_sm -->
-
-        </div> <!-- / .container -->
-
-      </div> <!-- / .section_events__item -->
-
-    </div> <!-- / .section_events_items -->
-
-  </section>
-
-  <!-- NEWSLETTER
-  ================================================== -->
-  <section class="section section_gray section_newsletter">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-
-          <!-- Heading -->
-          <h2 class="section__heading section_newsletter__heading text-center">
-            Newsletter
-          </h2>
-          <p class="section__subheading text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo praesentium sequi in cum, beatae maiores quae qui.
-          </p>
-
-        </div>
-      </div> <!-- / .row -->
-      <div class="row justify-content-center">
-        <div class="col-lg-6">
-
-          <!-- Form -->
-          <div id="mc_embed_signup">
-            <form class="section_newsletter__form validate" action="//simpleqode.us15.list-manage.com/subscribe/post-json?u=507744bbfd1cc2879036c7780&id=4523d25e1b&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
-              <div id="mc_embed_signup_scroll" class="row">
-                <div class="mc-field-group form-group col-md-9">
-                  <label for="mce-EMAIL" class="sr-only">E-mail address</label>
-                  <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email address">
-                </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response"></div>
-                  <div class="response" id="mce-success-response"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div aria-hidden="true" id="mce-hidden-input">
-                  <input type="text" name="b_507744bbfd1cc2879036c7780_4523d25e1b" tabindex="-1" value="">
-                </div>
-                <div class="clear col-md-3 text-center">
-                  <button type="submit" class="btn btn-primary" id="mc-embedded-subscribe">
-                    Subscribe
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div> <!-- #mc_embed_signup -->
-
-        </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-  </section>
 
   <!-- FOOTER
   ================================================== -->
@@ -736,10 +395,10 @@
 
           <!-- About Us -->
           <h5 class="section_footer__heading">
-            About Us
+            A propos de nous
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolorum, sint corporis nostrum, possimus unde eos vitae eius quasi saepe.
+            Notre objectif est d’ouvrir le patrimoine Français au plus grand nombre ainsi que de permettre le maintien en état de ces endroits qui font la richesse de notre patrimoine.
           </p>
 
         </div>
@@ -747,17 +406,17 @@
 
           <!-- Contact info -->
           <h5 class="section_footer__heading">
-            Contact info
+            Contact
           </h5>
           <ul class="section_footer__info">
             <li>
-              <i class="fas fa-map-marker-alt"></i> 1234 Altschul, New York, NY 10027-0000
+              <i class="fas fa-map-marker-alt"></i> 1234 Altschul, Paris, 10027-0000
             </li>
             <li>
               <i class="fas fa-phone"></i> +1 987 654 3210
             </li>
             <li>
-              <i class="far fa-envelope"></i> <a href="mailto:admin@domain.com">admin@domain.com</a>
+              <i class="far fa-envelope"></i> <a href="mailto:admin@domain.com">admin-renaissance@renaissance.com</a>
             </li>
           </ul>
 
@@ -766,14 +425,14 @@
 
           <!-- Opening hours -->
           <h5 class="section_footer__heading">
-            Opening hours
+            Heures d'ouverture
           </h5>
           <div class="section_footer__open">
-            <div class="section_footer__open__days">Monday - Thursday</div>
+            <div class="section_footer__open__days">Lundi – Vendredi</div>
             <div class="section_footer__open__time">10:00 AM - 11:00 PM</div>
           </div>
           <div class="section_footer__open">
-            <div class="section_footer__open__days">Friday - Sunday</div>
+            <div class="section_footer__open__days">Samedi</div>
             <div class="section_footer__open__time">12:00 AM - 03:00 AM</div>
           </div>
 
@@ -781,11 +440,6 @@
       </div> <!-- / .row -->
       <div class="row">
         <div class="col-12">
-
-          <!-- Copyright -->
-          <div class="section_footer__copyright">
-            &copy; <span id="js-current-year"></span> Touché. All rights reserved.
-          </div>
 
         </div>
       </div> <!-- / .row -->
@@ -797,7 +451,7 @@
 
   <!-- JS Global -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
 
   <!-- JS Plugins -->

@@ -15,4 +15,6 @@
 //= require turbolinks
 //= require_tree .
 //= require cable.js
-//= require theme.js
+
+//= require js/theme.js
+

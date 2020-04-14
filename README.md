@@ -1,24 +1,11 @@
-# README
+<h1> Renaissance </h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h2> French Heritage </h2> 
 
-Things you may want to cover:
+<p> Renaissance is a platfrom with the objective of opening the French heritage to the public as well as helping maintain these places which make the richness of our heritage. </p> 
 
-* Ruby version
+<p> Note: The development of Renaissance has, for now, ceased. </p>
 
-* System dependencies
+<h2> Specification </h2>
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Built on Ruby on Rails v5.2.0, Ruby v2.6.0, HTML5, CSS3 and JavaScript ES6. Deployed on a Heroku Hobby instance.

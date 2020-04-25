@@ -4,6 +4,8 @@
 
 <p> Renaissance is a platfrom with the objective of opening the French heritage to the public as well as helping maintain these places which make the richness of our heritage. </p> 
 
+<img src="https://github.com/victoria-vassi/avant-garde/raw/master/README/homepage.png" alt="homepage" title="Homepage" style="max-width:100%;">
+
 <p> Note: The development of Renaissance has, for now, ceased. </p>
 
 <h2> Specification </h2>

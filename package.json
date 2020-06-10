@@ -36,7 +36,7 @@
     "stream-combiner2": "^1.1.1"
   },
   "dependencies": {
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.13.1",
     "lodash.template": "^4.5.0",
     "minimatch": "^3.0.4",
     "node-uuid": "^1.4.6"
